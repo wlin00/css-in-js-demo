@@ -1,7 +1,7 @@
+// eslint-disable-next-line
 import React, { Component } from 'react';
 import { Record } from './type'
-import styled from 'styled-components'
-import './App.css';
+import Wrapper from './components/Wrapper'
 
 const records: Record[] = [
   { id: 1, name: 'Alice', gender: 'female', age: 24, introduction: 'developer' },
@@ -14,19 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {records.map(this.wrapper)}
-      </div>
-    )
-  }
-
-  wrapper(record: Record, index?: number) {
-    return (
-      <div key={record.id} className={`contact contact--${record.gender}`}>
-        <h2 className="contact__name">{record.name}</h2>
-        <p className="contact__intro">
-          <span>{record.name} is a <strong>{record.age} years</strong> old</span>
-          <strong>{record.introduction}</strong>
-        </p>
+        {records.map(record => <Wrapper key={record.id} {...record} />)}
       </div>
     )
   }

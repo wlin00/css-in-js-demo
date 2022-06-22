@@ -1,26 +1,32 @@
-.App {
-  text-align: left;
+body {
+  /* padding: 0;
+  margin: 0; */
 }
-.contact {
+.App {
+  /* text-align: left; */
+  /* color: #000; */
+  /* margin-top:20px; */
+  
+}
+/* .contact {
   border: 1px solid #DEDEDE;
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 10px;
   background-color: green;
   color: white
-}
+} */
 .contact--female {
-  background-color: tomato
+  /* background-color: tomato */
 }
-.contact__name {
+/* .contact__name {
   font-size: 20px;
   margin-top: 0;
-}
-.contact__intro {
+} */
+/* .contact__intro {
   font-size: 16px;
   margin-bottom: 0;
 }
 .contact__intro strong {
   font-weight: 600;
-
-}
+} */
