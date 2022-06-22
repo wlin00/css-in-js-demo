@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import React, { Component } from 'react';
 import { Record } from './type'
 import Wrapper from './components/Wrapper'
