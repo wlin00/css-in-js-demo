@@ -18,7 +18,7 @@ const Contact = styled.div<{ props: Record }>`
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 10px;
-  background-color: ${(props: Record) => props.gender === 'female' ? 'tomato' : 'green'};
+  background-color: ${(props: Record) => props.gender === 'female' ? 'blue' : 'green'};
   color: white;
 `
 
